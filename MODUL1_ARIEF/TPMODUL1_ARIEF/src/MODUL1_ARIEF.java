@@ -88,3 +88,4 @@ public class MODUL1_ARIEF {
         scanner.close();
     }
 }
+
