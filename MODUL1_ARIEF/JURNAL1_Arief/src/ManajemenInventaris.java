@@ -24,6 +24,7 @@ public class ManajemenInventaris {
         BarangElektronik barangElektronik = new BarangElektronik(garansi, nama, jumlah, harga );
         daftarBarang.add(barangElektronik);
         System.out.println("Barang Elektronik berhasil ditambahkan!");
+        scanner.close();
     }
     
         // Membuat objek barang elektronik baru
@@ -44,6 +45,7 @@ public class ManajemenInventaris {
         BarangNonElektronik barangNonElektronik = new BarangNonElektronik(nama, jumlah, harga, material);
         daftarBarang.add(barangNonElektronik);
         System.out.println("Barang Non-Elektronik berhasil ditambahkan!");
+        scanner.close();
     }
 
         // Scanner
@@ -57,6 +59,7 @@ public class ManajemenInventaris {
                 System.out.println("=============================");
             }
         }
+        scanner.close();
     }
 
         // Input Nama Barang, Jumlah Barang, Harga Barang, Material Barang

@@ -33,5 +33,6 @@ public class Main {
                     System.out.println("Pilihan tidak valid. Silakan pilih lagi.");
             }
         }
+        scanner.close();
     }
 }
