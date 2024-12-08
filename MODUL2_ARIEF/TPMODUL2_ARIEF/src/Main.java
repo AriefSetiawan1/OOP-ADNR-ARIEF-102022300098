@@ -8,7 +8,7 @@ public class Main {
         kucing.makan("Ikan");
 
         System.out.println();
-
+        
         Burung burung = new Burung("Rio", 1, "Hijau");
         System.out.println("Info Burung:");
         burung.infoHewan();
